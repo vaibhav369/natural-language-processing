@@ -24,3 +24,6 @@ This project is not entirely natural language processing. It is a sequence predi
 
 ![Training and Validation Loss representation of GRUs on temperature-prediction problem](https://github.com/vaibhav369/natural-language-processing/blob/master/temperature-prediction/results/temperature_prediction_GRUs_with_dropout.png)
  
+## reuters, imdb-sentiment-analysis and spam-classification
+
+All these projects are types of text-classification. reuters is a many-class classification, whereas spam-classification and imdb-sentiment analysis are binary text-classification projects. Again, they use similar techniques but to a different effect.
