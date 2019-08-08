@@ -18,4 +18,9 @@ One-Piece is one of the most loved anime series of all times. Greatest story-tel
 
 It appears that the algorithm learns a pet phrase, which is not so impressive. But still, seeing that the algorithm can only predict individual characters and gets most of the spelling right is a bit nice. I believe more training can help in this scenario. Also, future prospcts for this include training on words rather than characters. Currently, the project uses LSTMs. In future, we can explore things like Conv1D and other like algorithms too.
 
+## temperature-prediction
 
+This project is not entirely natural language processing. It is a sequence prediction project which uses the same techniques as a natural-language-processing tasks. We have used Dense Networks (MLPs), GRUs and LSTMs to predict temperature of next day, given temperature of a whole day back. The baseline was taken as the same temperature that was previous day at the same time. The deep-learning techniques successfully crossed this baseline.
+
+![Training and Validation Loss representation of GRUs on temperature-prediction problem](https://github.com/vaibhav369/natural-language-processing/blob/master/temperature-prediction/results/temperature_prediction_GRUs_with_dropout.png)
+ 
